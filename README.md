@@ -27,15 +27,14 @@
 3. **Add the following ACE permissions to your `server.cfg`:**
 
    ```cfg
-# ACE Permissions for Admin-only Commands
-add_ace group.admin command.becomepolice allow
-add_ace group.admin command.removepolice allow
+   ACE Permissions for Admin-only Commands
+   add_ace group.admin command.becomepolice allow
+   add_ace group.admin command.removepolice allow
 
-# Assign yourself or staff to the admin group (replace with your real Steam or license ID)
-add_principal identifier.steam:110000123456789ab group.admin
-# OR, for license:
-# add_principal identifier.license:license:abc123... group.admin
-
+   ## Assign yourself or staff to the admin group (replace with your real Steam or license ID)
+   add_principal identifier.steam:110000123456789ab group.admin
+   OR, for license:
+   dd_principal identifier.license:license:abc123... group.admin
    ```
 
 ---
